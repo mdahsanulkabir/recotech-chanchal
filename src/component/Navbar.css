@@ -1,0 +1,30 @@
+.header {
+    position: fixed;
+    top: 0;
+    margin-top: 37px; /* canbe avoid.. its for the <h1>Hello</h1> */ 
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.6s;
+    padding: 40px 100px;
+    z-index: 12;
+}
+
+.header.sticky {
+    margin-top: 0;  /* as above margin top can be avoid*/
+    padding: 5px 100px;
+    background: #fff;
+    transition: 0.6s;
+}
+
+.header .css-1e6y48t-MuiButtonBase-root-MuiButton-root {
+    color: #fff;
+    font-weight: 500;
+    transition: 0.6s;
+}
+
+.header.sticky .css-1e6y48t-MuiButtonBase-root-MuiButton-root {
+    color: #000;
+}
